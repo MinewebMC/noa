@@ -383,7 +383,7 @@ function initChunkQueues(world) {
 
 // process neighborhood chunks, add missing ones to "toRequest" and "inMemory"
 function findNewChunksInRange(world, ci, cj, ck) {
-    var add = Math.ceil(world.chunkAddDistance)
+    /* var add = Math.ceil(world.chunkAddDistance)
     var addDistSq = world.chunkAddDistance * world.chunkAddDistance
     var known = world._chunkIDsKnown
     var toRequest = world._chunkIDsToRequest
@@ -403,7 +403,7 @@ function findNewChunksInRange(world, ci, cj, ck) {
             }
         }
     }
-    sortChunkIDQueue(world, toRequest)
+    sortChunkIDQueue(world, toRequest) */
 }
 
 
